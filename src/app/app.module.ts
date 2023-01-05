@@ -10,6 +10,7 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MachineManagementComponent } from './machine-management/machine-management.component';
+import { TimecardComponent } from './timecard/timecard.component';
 
 
 
@@ -21,7 +22,8 @@ import { MachineManagementComponent } from './machine-management/machine-managem
     NavbarComponent,
     MainContentComponent,
     SideBarComponent,
-    MachineManagementComponent
+    MachineManagementComponent,
+    TimecardComponent
   ],
   imports: [
     BrowserModule,

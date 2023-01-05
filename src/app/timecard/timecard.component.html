@@ -12,11 +12,11 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let item of contractors">
-        <td>{{item.jobCode}}</td>
-        <td>{{item.description}}</td>
-        <td>${{item.hourlyRate}}/Hr.</td>
-        <td>{{item.maxHoursPerDay}} Hr.</td>
+      <tr *ngFor="let item of items">
+        <td>{{item.siteCode}}</td>
+        <td>{{item.contractorName}}</td>
+        <td>${{item.totalHours}}/Hr.</td>
+        <td>{{item.totalAmount}} Hr.</td>
         <td><a href="">Edit</a></td>
         <td><a href="">Delete</a></td>
       </tr>
