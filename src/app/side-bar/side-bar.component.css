@@ -1,0 +1,14 @@
+#side-bar {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+  padding-top: 20px;
+}
+
+#side-bar .nav-link {
+  color: black;
+}
+
+.active{
+  font-weight: bold;
+}

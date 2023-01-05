@@ -1,0 +1,23 @@
+<div class="page">
+  <h2 class="title">Job Code Management</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Job Code</th>
+        <th>Description</th>
+        <th>Hourly Rate</th>
+        <th>Max Hours per day</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of contractors">
+        <td>{{item.jobCode}}</td>
+        <td>{{item.description}}</td>
+        <td>${{item.hourlyRate}}/Hr.</td>
+        <td>{{item.maxHoursPerDay}} Hr.</td>
+        <td><a href="">Edit</a></td>
+        <td><a href="">Delete</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
